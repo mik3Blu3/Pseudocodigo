@@ -13,12 +13,12 @@ Algoritmo Determinar_suma_4digitos
 		Si num>=100 Y num <=999 Entonces
 			Escribir "Numero de tres digitos"
 			dig1real=trunc(num/100)
-			Escribir "Primer Digito: ",dig1
+			Escribir "Primer Digito: ",dig1real
 			dig2 = num-trunc(num/100)*100
 			dig2real=trunc(dig2/10)
 			Escribir "Segundo Digito: ",dig2real
 			dig3real=trunc(dig2 mod 10)
-			Escribir "Tercer Digito: ",dig3
+			Escribir "Tercer Digito: ",dig3real
 			sumadigitos=dig1real+dig2real+dig3real
 			Escribir "La suma de los 3 digitos es: ",sumadigitos
 		SiNo
